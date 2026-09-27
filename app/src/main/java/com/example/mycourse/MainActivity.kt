@@ -1,4 +1,4 @@
-package com.example.mycoursehanivia
+package com.example.mycourse
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,7 +8,7 @@ import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.mycoursehanivia.databinding.ActivityMainBinding
+import com.example.mycourse.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {

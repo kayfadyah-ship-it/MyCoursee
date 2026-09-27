@@ -1,11 +1,11 @@
-package com.example.mycoursehanivia
+package com.example.mycourse
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.mycoursehanivia.databinding.FragmentHomeBinding
+import com.example.mycourse.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

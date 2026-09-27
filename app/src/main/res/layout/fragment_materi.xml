@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MateriFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Materi" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Materi Praktikum"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
 
-</FrameLayout>
+    <!-- List Materi 1 -->
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Materi 1: Konsep Dasar OOP &amp; Class" />
+
+    <!-- List Materi 2 -->
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Materi 2: Pengenalan Android Studio &amp; Layout XML" />
+
+    <!-- List Materi 3 -->
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Materi 3: Activity, Fragment &amp; ViewPager2" />
+
+    <!-- List Materi 4 -->
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Materi 4: Custom Style &amp; Component UI" />
+
+</LinearLayout>

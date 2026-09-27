@@ -1,4 +1,4 @@
-package com.example.mycoursehanivia
+package com.example.mycourse
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment

@@ -1,4 +1,4 @@
-package com.example.mycoursehanivia
+package com.example.mycourse
 
 import org.junit.Test
 

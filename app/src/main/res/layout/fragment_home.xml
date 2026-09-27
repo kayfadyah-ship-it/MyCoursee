@@ -17,13 +17,49 @@
         android:textStyle="bold"
         android:layout_marginBottom="8dp" />
 
-    <!-- Subjudul / Submenu -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:text="Praktikum Pengembangan Perangkat Bergerak"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Gambar Deskripsi Kelas -->
+    <ImageView
+        android:id="@+id/img_course"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="Gambar Deskripsi Kelas"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Deskripsi Kelas Praktikum -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Kelas:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata kuliah praktikum ini berfokus pada pemahaman konsep dasar pemograman berorientasi objek (OOP) serta implementasi pembuatan aplikasi Android menggunakan Kotlin, XML, ViewBinding, dan Fragment."
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Pilih Menu Kursus"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
 
     <!-- Tombol Materi OOP -->
     <androidx.appcompat.widget.AppCompatButton

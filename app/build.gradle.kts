@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mycoursehanivia"
+    namespace = "com.example.mycourse"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.mycoursehanivia"
+        applicationId = "com.example.mycourse"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

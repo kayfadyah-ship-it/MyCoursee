@@ -1,4 +1,4 @@
-package com.example.mycoursehanivia
+package com.example.mycourse
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -13,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [MateriFragment.newInstance] factory method to
+ * Use the [QuizFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class MateriFragment : Fragment() {
+class QuizFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,7 +34,7 @@ class MateriFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_materi, container, false)
+        return inflater.inflate(R.layout.fragment_quiz, container, false)
     }
 
     companion object {
@@ -44,12 +44,12 @@ class MateriFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment MateriFragment.
+         * @return A new instance of fragment QuizFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            MateriFragment().apply {
+            QuizFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
